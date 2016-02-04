@@ -37,7 +37,6 @@ if ! zgen saved; then
     zgen load horosgrisa/autoenv
     zgen load sulphur/elixir-oh-my-zsh
 
-
     # bulk load
     # zgen loadall <<EOPLUGINS
         # zsh-users/zsh-history-substring-search
@@ -70,11 +69,11 @@ export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/scalezen-chef
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/chopstick
 
-#alias mdockerinit="docker-machine start default ; eval $(docker-machine env default)"
-
 [[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 [[ -s /Users/piotr/.nvm/nvm.sh ]] && . /Users/piotr/.nvm/nvm.sh # This loads NVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+[[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"
 
 # path to the DCOS CLI binary
 if [[ "$PATH" != *"/Users/piotr/Documents/Projects/labs/mesosphere/dcos/dcos/bin"* ]];
