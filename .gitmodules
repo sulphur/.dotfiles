@@ -1,3 +1,6 @@
 [submodule "zgen"]
 	path = zgen
 	url = git@github.com:tarjoilija/zgen.git
+[submodule "_vim"]
+	path = _vim
+	url = https://github.com/sulphur/vim.git

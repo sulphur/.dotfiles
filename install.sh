@@ -7,7 +7,7 @@ git submodule update --init --recursive
 
 # vim
 ln -s ${BASEDIR}/_vimrc ~/.vimrc
-ln -s ${BASEDIR}/vim ~/.vim
+ln -s ${BASEDIR}/_vim ~/.vim
 
 # zsh
 ln -s ${BASEDIR}/zshrc ~/.zshrc
