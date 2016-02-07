@@ -6,8 +6,8 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 git submodule update --init --recursive
 
 # vim
-ln -s ${BASEDIR}/_vimrc ~/.vimrc
-ln -s ${BASEDIR}/_vim ~/.vim
+ln -s ${BASEDIR}/vimrc ~/.vimrc
+ln -shF ${BASEDIR}/_vim ~/.vim
 
 # zsh
 ln -s ${BASEDIR}/zshrc ~/.zshrc
