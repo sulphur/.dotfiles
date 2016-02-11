@@ -28,7 +28,6 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/git-extras
     zgen oh-my-zsh plugins/github
     zgen oh-my-zsh plugins/docker
-    # zgen oh-my-zsh plugins/mix
     zgen oh-my-zsh plugins/nvm
     zgen oh-my-zsh plugins/rvm
     zgen oh-my-zsh plugins/spring
