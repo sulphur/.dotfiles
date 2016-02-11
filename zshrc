@@ -17,11 +17,6 @@ export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/chopstick
 [[ -s /Users/piotr/.nvm/nvm.sh ]] && . /Users/piotr/.nvm/nvm.sh # This loads NVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# path to the DCOS CLI binary
-if [[ "$PATH" != *"/Users/piotr/Documents/Projects/labs/mesosphere/dcos/dcos/bin"* ]];
-  then export PATH=$PATH:/Users/piotr/Documents/Projects/labs/mesosphere/dcos/dcos/bin;
-fi
-
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/piotr/google-cloud-sdk/path.zsh.inc'
 

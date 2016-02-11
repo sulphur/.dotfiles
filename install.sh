@@ -16,4 +16,5 @@ ln -s ${BASEDIR}/zshrc ~/.zshrc
 ln -s ${BASEDIR}/gitconfig ~/.gitconfig
 
 ln -s ${BASEDIR}/tigrc ~/.tigrc
+ln -s ${BASEDIR}/tmux.conf ~/.tmux.conf
 
