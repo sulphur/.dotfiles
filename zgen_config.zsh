@@ -47,7 +47,7 @@ if ! zgen saved; then
 
     zgen load zsh-users/zsh-history-substring-search
     # completions
-    zgen load zsh-users/zsh-completions src
+    # zgen load zsh-users/zsh-completions src
 
     # theme
     zgen oh-my-zsh themes/agnoster
