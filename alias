@@ -1,3 +1,4 @@
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 alias zshedit="vim ~/.dotfiles/zshrc"
 ssr() { ssh root@$@; }
+
