@@ -23,8 +23,7 @@ source '/Users/piotr/google-cloud-sdk/path.zsh.inc'
 # The next line enables shell command completion for gcloud.
 source '/Users/piotr/google-cloud-sdk/completion.zsh.inc'
 
-export FLEETCTL_ENDPOINT=http://172.17.8.101:4001
-export KUBERNETES_MASTER=http://172.17.8.101:8080
-
+#export FLEETCTL_ENDPOINT=http://172.17.8.101:4001
+#export KUBERNETES_MASTER=http://172.17.8.101:8080
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
