@@ -18,6 +18,7 @@ if &compatible
   NeoBundle 'elixir-lang/vim-elixir'
   NeoBundle 'scrooloose/syntastic'
   NeoBundle 'scrooloose/nerdtree'
+  NeoBundle 'ctrlpvim/ctrlp.vim'
 
   " Required:
   call neobundle#end()
@@ -37,3 +38,8 @@ set number
 set hidden
 set background=dark
 colorscheme solarized
+
+" allow backspacing over everything in insert mode 
+set backspace=indent,eol,start
+set ruler
+
