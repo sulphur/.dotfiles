@@ -42,4 +42,6 @@ colorscheme solarized
 " allow backspacing over everything in insert mode 
 set backspace=indent,eol,start
 set ruler
+" strip whitespaces
+autocmd BufWritePre * :%s/\s\+$//e
 
