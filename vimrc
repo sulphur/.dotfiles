@@ -19,6 +19,20 @@ if &compatible
   NeoBundle 'scrooloose/syntastic'
   NeoBundle 'scrooloose/nerdtree'
   NeoBundle 'ctrlpvim/ctrlp.vim'
+  NeoBundle 'tpope/vim-surround'
+  NeoBundle 'janko-m/vim-test'
+
+  " testing :
+"  NeoBundle 'jelera/vim-javascript-syntax'
+"  NeoBundle 'pangloss/vim-javascript'
+"  NeoBundle 'nathanaelkane/vim-indent-guides'
+"  NeoBundle 'Raimondi/delimitMate'
+
+" JavaScript
+  NeoBundle 'pangloss/vim-javascript'
+
+" react
+  NeoBundle 'mxw/vim-jsx'
 
   " Required:
   call neobundle#end()
@@ -39,9 +53,20 @@ set hidden
 set background=dark
 colorscheme solarized
 
-" allow backspacing over everything in insert mode 
+" allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 set ruler
+
 " strip whitespaces
 autocmd BufWritePre * :%s/\s\+$//e
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+"react
+"let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+
+
+
 
