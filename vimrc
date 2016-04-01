@@ -34,6 +34,10 @@ if &compatible
 " react
   NeoBundle 'mxw/vim-jsx'
 
+" alchamist
+  NeoBundle 'slashmili/alchemist.vim'
+  NeoBundle 'powerman/vim-plugin-AnsiEsc.git'
+
   " Required:
   call neobundle#end()
 
@@ -63,6 +67,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set wildmenu
 
 "react
 "let g:jsx_ext_required = 0 " Allow JSX in normal JS files
