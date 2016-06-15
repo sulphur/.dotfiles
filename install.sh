@@ -17,4 +17,5 @@ ln -s ${BASEDIR}/gitconfig ~/.gitconfig
 
 ln -s ${BASEDIR}/tigrc ~/.tigrc
 ln -s ${BASEDIR}/tmux.conf ~/.tmux.conf
-
+ln -s ${BASEDIR}/ctags ~/.ctags
+ln -s ${BASEDIR}/ackrc ~/.ackrc

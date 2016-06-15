@@ -69,9 +69,22 @@ set shiftwidth=2
 set softtabstop=2
 set wildmenu
 
+set directory=/tmp
+
 "react
 "let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
+" vim rests mapping
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
 
+" make not dependant for on line ends
+" set whichwrap=b,s,h,l,<,>,[,],~
 
+set textwidth=90
+set cc=+1
 
+set grepprg=ack\ --nogroup
