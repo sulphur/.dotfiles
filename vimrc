@@ -34,10 +34,6 @@ if &compatible
 " react
   NeoBundle 'mxw/vim-jsx'
 
-" alchamist
-  NeoBundle 'slashmili/alchemist.vim'
-  NeoBundle 'powerman/vim-plugin-AnsiEsc.git'
-
   " Required:
   call neobundle#end()
 
