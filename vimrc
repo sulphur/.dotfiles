@@ -71,15 +71,28 @@ set wildmenu
 
 set directory=/tmp
 
-"react
-"let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+let mapleader = "\<Space>"
 
-" vim rests mapping
+nnoremap <Leader>o :CtrlP<CR>
+nnoremap <Leader>w :w<CR>
+
+vmap <Leader>y "+y
+vmap <Leader>d "+d
+nmap <Leader>p "+p
+nmap <Leader>P "+P
+vmap <Leader>p "+p
+vmap <Leader>P "+P
+
+"react
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+
+" vim tests mapping
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
-nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>l :w<CR>:TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+
 
 " make not dependant for on line ends
 " set whichwrap=b,s,h,l,<,>,[,],~
