@@ -52,7 +52,6 @@ set number
 set hidden
 set background=dark
 colorscheme solarized
-
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 set ruler
@@ -80,7 +79,7 @@ vmap <Leader>p "+p
 vmap <Leader>P "+P
 
 "react
-let g:jsx_ext_required = 0 " Allow JSX in normal JS files
+"let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " vim tests mapping
 nmap <silent> <leader>t :TestNearest<CR>

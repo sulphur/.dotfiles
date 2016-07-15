@@ -29,14 +29,14 @@ if ! zgen saved; then
     zgen oh-my-zsh plugins/github
     zgen oh-my-zsh plugins/docker
     zgen oh-my-zsh plugins/nvm
-    zgen oh-my-zsh plugins/rvm
-    zgen oh-my-zsh plugins/spring
+    #zgen oh-my-zsh plugins/rvm
+    #zgen oh-my-zsh plugins/spring
     zgen oh-my-zsh plugins/z
 
     zgen load zsh-users/zsh-syntax-highlighting
     zgen load rimraf/k
-    zgen load Tarrasch/zsh-autoenv
-    zgen load horosgrisa/autoenv
+    #zgen load Tarrasch/zsh-autoenv
+    #zgen load horosgrisa/autoenv
     zgen load sulphur/elixir-oh-my-zsh
 
     # bulk load
