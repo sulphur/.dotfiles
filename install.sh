@@ -19,3 +19,5 @@ ln -s ${BASEDIR}/tigrc ~/.tigrc
 ln -s ${BASEDIR}/tmux.conf ~/.tmux.conf
 ln -s ${BASEDIR}/ctags ~/.ctags
 ln -s ${BASEDIR}/ackrc ~/.ackrc
+
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.1.0
