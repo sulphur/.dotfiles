@@ -13,10 +13,10 @@ export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/chopstick
 [[ -s "$HOME/.dotfiles/zgen_config.zsh" ]] && source "$HOME/.dotfiles/zgen_config.zsh"
 [[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"
 
-[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
-[[ -s /Users/piotr/.nvm/nvm.sh ]] && . /Users/piotr/.nvm/nvm.sh # This loads NVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
+#[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
+#[[ -s /Users/piotr/.nvm/nvm.sh ]] && . /Users/piotr/.nvm/nvm.sh # This loads NVM
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+[[ -s "$HOME/.asdf/asdf.sh" ]] && source "$HOME/.asdf/asdf.sh"
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/piotr/google-cloud-sdk/path.zsh.inc'
 
