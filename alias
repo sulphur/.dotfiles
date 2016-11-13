@@ -2,4 +2,4 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias zshedit="vim ~/.dotfiles/zshrc"
 alias gigipush="git push -f"
 ssr() { ssh root@$@; }
-
+alias ex_guard="fswatch -0 spec/ | xargs -0 -n1 | awk ' /\.exs$/ { system(\"echo exec; mix espec \" $1)}'"
