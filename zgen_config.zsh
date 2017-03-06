@@ -47,6 +47,7 @@ if ! zgen saved; then
     # ^ can't indent this EOPLUGINS
 
     zgen load zsh-users/zsh-history-substring-search
+    zgen load zsh-users/zsh-autosuggestions
     # completions
     # zgen load zsh-users/zsh-completions src
 
