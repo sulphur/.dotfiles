@@ -13,18 +13,18 @@ if ! zgen saved; then
     # plugins
     zgen oh-my-zsh plugins/git
     zgen oh-my-zsh plugins/sudo
-    zgen oh-my-zsh plugins/command-not-found
+    #zgen oh-my-zsh plugins/command-not-found
 
     # old
-    zgen oh-my-zsh plugins/bundler
-    zgen oh-my-zsh plugins/osx
-    zgen oh-my-zsh plugins/rake
-    zgen oh-my-zsh plugins/ruby
-    zgen oh-my-zsh plugins/battery
+    #zgen oh-my-zsh plugins/bundler
+    #zgen oh-my-zsh plugins/osx
+    #zgen oh-my-zsh plugins/rake
+    #zgen oh-my-zsh plugins/ruby
+    #zgen oh-my-zsh plugins/battery
     zgen oh-my-zsh plugins/brew
     #zgen oh-my-zsh plugins/brew-cask
-    zgen oh-my-zsh plugins/heroku
-    zgen oh-my-zsh plugins/tmux
+    #zgen oh-my-zsh plugins/heroku
+    #zgen oh-my-zsh plugins/tmux
     zgen oh-my-zsh plugins/git-extras
     zgen oh-my-zsh plugins/github
     zgen oh-my-zsh plugins/docker
