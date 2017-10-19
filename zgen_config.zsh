@@ -52,7 +52,9 @@ if ! zgen saved; then
     # zgen load zsh-users/zsh-completions src
 
     # theme
-    zgen oh-my-zsh themes/agnoster
+    #zgen oh-my-zsh themes/agnoster
+
+    zgen load bhilburn/powerlevel9k powerlevel9k
 
     # save all to init script
     zgen save

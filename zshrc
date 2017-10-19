@@ -4,11 +4,15 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin"
 export THEOS=/Users/piotr/theos
 export THEOS_DEVICE_IP=172.20.10.1 THEOS_DEVICE_PORT=22
 export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/scalezen-chef
 export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/chopstick
+
+
+export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs aws docker_machine nvm)
+export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs command_execution_time time battery)
 
 [[ -s "$HOME/.dotfiles/zgen_config.zsh" ]] && source "$HOME/.dotfiles/zgen_config.zsh"
 [[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"

@@ -16,6 +16,7 @@ if &compatible
   NeoBundle 'tpope/vim-fugitive'
   NeoBundle 'flazz/vim-colorschemes'
   NeoBundle 'elixir-lang/vim-elixir'
+  NeoBundle 'vim-ruby/vim-ruby'
   NeoBundle 'scrooloose/syntastic'
   NeoBundle 'scrooloose/nerdtree'
   NeoBundle 'ctrlpvim/ctrlp.vim'
@@ -92,8 +93,8 @@ nmap <silent> <leader>g :TestVisit<CR>
 " make not dependant for on line ends
 " set whichwrap=b,s,h,l,<,>,[,],~
 
-set textwidth=90
-set cc=+1
+"set textwidth=90
+"set cc=+1
 
 set grepprg=ack\ --nogroup
 
