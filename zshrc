@@ -4,7 +4,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/10/bin"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
 export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/scalezen-chef
 export PATH=$PATH:/Users/piotr/Documents/Projects/msaas/chopstick
 
