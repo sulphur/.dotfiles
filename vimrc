@@ -52,6 +52,8 @@ set encoding=utf-8
 set number
 set hidden
 set background=dark
+let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
 colorscheme solarized
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
