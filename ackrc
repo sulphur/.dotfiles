@@ -3,5 +3,3 @@
 --ignore-dir=logs
 --ignore-file=is:tags
 --ignore-file=firstlinematch:webpackBootstrap
-
-
