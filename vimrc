@@ -7,7 +7,7 @@ if &compatible
   set runtimepath^=~/.vim/bundle/neobundle.vim/
 
   " Required:
-  call neobundle#begin(expand('/Users/piotr/.vim/bundle'))
+  call neobundle#begin(expand('/Users/$USER/.vim/bundle'))
 
   " Let NeoBundle manage NeoBundle
   " Required:
