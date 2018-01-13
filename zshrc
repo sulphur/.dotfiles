@@ -8,6 +8,7 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
 
 export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs aws docker_machine nvm)
 export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs command_execution_time time battery)
+export POWERLEVEL9K_BATTERY_STAGES="▁▂▃▄▅▆▇█"
 
 [[ -s "$HOME/.dotfiles/zgen_config.zsh" ]] && source "$HOME/.dotfiles/zgen_config.zsh"
 [[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"
