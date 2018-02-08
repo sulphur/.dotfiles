@@ -5,6 +5,7 @@ export LANG=en_US.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin"
+export EDITOR=vim
 
 export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs aws docker_machine nvm)
 export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs command_execution_time time battery)
@@ -28,3 +29,4 @@ source "$HOME/google-cloud-sdk/completion.zsh.inc"
 unsetopt share_history
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
+unalias gr
