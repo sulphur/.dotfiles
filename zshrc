@@ -30,3 +30,5 @@ unsetopt share_history
 
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 unalias gr
+
+source "$HOME/.zshrc_private"

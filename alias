@@ -3,3 +3,8 @@ alias zshedit="vim ~/.dotfiles/zshrc"
 alias gigipush="git push -f"
 ssr() { ssh root@$@; }
 alias ex_guard="fswatch -0 spec/ | xargs -0 -n1 | awk ' /\.exs$/ { system(\"echo exec; mix espec \" $1)}'"
+
+gitlabmr() {
+  id=`gitlab create_merge_request boobs/$(basename $PWD) "$(git show --format=%s --no-patch)" "{source_branch: '"$(git rev-parse --abbrev-ref HEAD)"', target_branch: 'master', remove_source_branch: true}" --json | jq ".result.iid"`
+  gitlab create_merge_request_comment boobs/$(basename $PWD) $id "Jenkins retry"
+}
