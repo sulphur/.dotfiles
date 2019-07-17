@@ -91,6 +91,8 @@ nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :w<CR>:TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+" let test#elixir#espec#file_pattern = '\v_spec|_shared\.exs$'
+" let test#ruby#rspec = '_spec\.rb'
 
 
 " make not dependant for on line ends
