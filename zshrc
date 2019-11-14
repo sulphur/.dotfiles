@@ -9,7 +9,7 @@ export EDITOR=vim
 export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs aws docker_machine nvm)
 export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs command_execution_time time battery)
 export POWERLEVEL9K_BATTERY_STAGES="▁▂▃▄▅▆▇█"
-#export POWERLEVEL9K_COLOR_SCHEME='light'
+export POWERLEVEL9K_COLOR_SCHEME='dark'
 
 [[ -s "$HOME/.dotfiles/zgen_config.zsh" ]] && source "$HOME/.dotfiles/zgen_config.zsh"
 [[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"
