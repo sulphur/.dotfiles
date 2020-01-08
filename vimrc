@@ -23,6 +23,7 @@ if &compatible
   NeoBundle 'tpope/vim-surround'
   NeoBundle 'janko-m/vim-test'
   NeoBundle 'ElmCast/elm-vim'
+  NeoBundle 'hashivim/vim-terraform'
 
   " testing :
 "  NeoBundle 'jelera/vim-javascript-syntax'
