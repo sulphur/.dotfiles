@@ -26,6 +26,8 @@ export POWERLEVEL9K_COLOR_SCHEME='dark'
 export POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 export POWERLEVEL9K_SHORTEN_DELIMITER=""
 export POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+export POWERLEVEL9K_CONTEXT_REMOTE_BACKGROUND='lightgreen'
+export POWERLEVEL9K_CONTEXT_REMOTE_FOREGROUND='red'
 
 [[ -s "$HOME/.dotfiles/zgen_config.zsh" ]] && source "$HOME/.dotfiles/zgen_config.zsh"
 [[ -s "$HOME/.dotfiles/alias" ]] && source "$HOME/.dotfiles/alias"
