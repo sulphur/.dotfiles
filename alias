@@ -31,3 +31,4 @@ makeDark(){
   makeProfile 'dark'
 }
 
+alias tf=terraform

@@ -31,6 +31,7 @@ if ! zgen saved; then
     #zgen oh-my-zsh plugins/nvm
     #zgen oh-my-zsh plugins/rvm
     #zgen oh-my-zsh plugins/spring
+    zgen oh-my-zsh plugins/terraform
     zgen oh-my-zsh plugins/z
     zgen oh-my-zsh plugins/zsh-navigation-tools
 
