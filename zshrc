@@ -47,5 +47,5 @@ unsetopt share_history
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 unalias gr
 
-source "$HOME/.zshrc_private"
+test -e ${HOME}/.zshrc_private && source "$HOME/.zshrc_private"
 export PATH="/usr/local/opt/curl/bin:$PATH"
