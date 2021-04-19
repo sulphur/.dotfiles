@@ -5,3 +5,5 @@
 	email = piotr.kedziora27@gmail.com
 [github]
 	user = sulphur
+[pull]
+	rebase = false

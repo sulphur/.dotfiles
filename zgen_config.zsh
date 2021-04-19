@@ -39,7 +39,7 @@ if ! zgen saved; then
     zgen load rimraf/k
     #zgen load Tarrasch/zsh-autoenv
     #zgen load horosgrisa/autoenv
-    #zgen load sulphur/elixir-oh-my-zsh
+    zgen load sulphur/elixir-oh-my-zsh
 
     # bulk load
     # zgen loadall <<EOPLUGINS

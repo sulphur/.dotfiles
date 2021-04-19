@@ -87,6 +87,7 @@ vmap <Leader>P "+P
 "let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " vim tests mapping
+let test#strategy = "basic"
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
