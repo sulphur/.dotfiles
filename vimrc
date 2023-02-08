@@ -15,7 +15,8 @@ if &compatible
 
   NeoBundle 'tpope/vim-fugitive'
   NeoBundle 'flazz/vim-colorschemes'
-  NeoBundle 'elixir-lang/vim-elixir'
+  "NeoBundle 'elixir-lang/vim-elixir'
+  NeoBundle 'elixir-editors/vim-elixir'
   NeoBundle 'vim-ruby/vim-ruby'
   NeoBundle 'scrooloose/syntastic'
   NeoBundle 'scrooloose/nerdtree'
@@ -24,6 +25,7 @@ if &compatible
   NeoBundle 'janko-m/vim-test'
   NeoBundle 'ElmCast/elm-vim'
   NeoBundle 'hashivim/vim-terraform'
+  NeoBundle 'mattn/emmet-vim'
 
   " testing :
 "  NeoBundle 'jelera/vim-javascript-syntax'
@@ -76,6 +78,7 @@ let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 
+" system clipboard
 vmap <Leader>y "+y
 vmap <Leader>d "+d
 nmap <Leader>p "+p
@@ -111,3 +114,10 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 set t_Co=256
 
 au! BufNewFile,BufRead *.svelte set ft=html
+
+"fix for vim-elixi ftdetect https://github.com/elixir-editors/vim-elixir/issues/562
+au BufRead,BufNewFile *.ex,*.exs set filetype=elixir
+au BufRead,BufNewFile *.eex,*.heex,*.leex,*.sface,*.lexs set filetype=eelixir
+au BufRead,BufNewFile mix.lock set filetype=elixir
+
+nmap <Leader>e :e%:h<CR>

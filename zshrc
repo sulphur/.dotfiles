@@ -4,6 +4,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 export PATH=/usr/local/bin:$PATH
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/opt/homebrew/bin:$PATH"
 export EDITOR=vim
 
 zsh_terraform() {
@@ -51,3 +52,9 @@ unalias gr
 
 test -e ${HOME}/.zshrc_private && source "$HOME/.zshrc_private"
 export PATH="/usr/local/opt/curl/bin:$PATH"
+
+#erlang history enabled
+export ERL_AFLAGS="$ERL_AFLAGS -kernel shell_history enabled"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
